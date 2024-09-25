@@ -1,0 +1,21 @@
+:root {
+    --background: #171717;
+    --foreground: #ffffff;
+}
+
+/* 
+@media (prefers-color-scheme: light) {
+    :root {
+      --background: #ededed;
+      --foreground: #0a0a0a;
+    }
+  } 
+*/
+
+body {
+
+    color: var(--foreground);
+    background-color: var(--background);
+    font-family: 'GeistVF', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
