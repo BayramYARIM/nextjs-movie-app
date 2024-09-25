@@ -1,0 +1,38 @@
+.header {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  padding: 8px 0;
+}
+
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 32px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+.navMenu {
+  display: flex;
+  gap: 32px;
+  padding: 10px 20px;
+
+}
+
+.navMenu a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.navMenu a:hover {
+  color: #f0ad4e;
+}
