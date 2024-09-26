@@ -16,7 +16,7 @@ function Footer() {
         <Link href={"https://github.com/BayramYARIM"} target="_blank">
           <FaGithub />
         </Link>
-        <Link href={"https://www.linkedin.com/in/bayramyarim/"}>
+        <Link href={"https://www.linkedin.com/in/bayramyarim/"} target="_blank">
           <FaLinkedin />
         </Link>
         <Link href={"mailto:byyarim@gmail.com"}>
