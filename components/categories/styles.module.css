@@ -1,0 +1,73 @@
+.categories {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 1px solid #333;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  height: 64px;
+  border-radius: 8px;
+  font-weight: 700;
+  flex: 1 0 120px;
+}
+
+.category:hover {
+  background-color: #f0ad4e;
+}
+
+
+ /* Test:Scrool category style */
+/* .categoriesWrapper {
+  display: flex;
+  align-items: center; 
+  gap: 12px;
+  position: relative;
+}
+
+.categories {
+  display: flex;
+  height: 64px;
+  gap: 12px;
+  overflow-x: auto; 
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 1px solid #333;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  width: 150px;
+  height: 100%;
+  border-radius: 8px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.scrollButton {
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 2; 
+}
+
+.scrollButton:first-of-type { 
+  left: 0;
+}
+
+.scrollButton:last-of-type {
+  right: 0;
+} */
