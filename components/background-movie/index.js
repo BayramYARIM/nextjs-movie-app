@@ -1,8 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FaTrailer } from "react-icons/fa";
 import styles from "./styles.module.css";
+
+import TrailerPlayButton from "../trailer-buton";
 
 function BackgorundMoviePoster({ movie = {}, isShortText = true }) {
   const { poster_path, title, overview } = movie;
@@ -24,11 +25,8 @@ function BackgorundMoviePoster({ movie = {}, isShortText = true }) {
         >
           Detail
         </Link>
-        <button className={styles.trailerButton}>
-          <Link href={"/trailer?popup=true"}>
-            <FaTrailer />
-          </Link>
-        </button>
+
+        <TrailerPlayButton />
       </div>
       <div className={styles.moviePoster}>
         <div className={styles.moviePosterOverlay}></div>
