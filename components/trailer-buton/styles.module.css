@@ -1,0 +1,14 @@
+.trailerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #eee;
+    border-radius: 999px;
+    width: 62px;
+    height: 62px;
+    color: #eee;
+  }
+  
+  .trailerButton:hover {
+    background-color: #f0ad4e;
+  }
