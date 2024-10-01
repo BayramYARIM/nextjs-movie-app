@@ -1,0 +1,49 @@
+.moviesCard {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.movies {
+  display: flex;
+  overflow-x: auto;
+  gap: 8px;
+}
+
+.movie {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  border: 3px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-style: solid;
+}
+
+.movie::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.movie:hover {
+  border-color: #f0ad4e;
+}
+
+.movie img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
