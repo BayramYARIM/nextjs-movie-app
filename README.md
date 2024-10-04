@@ -6,6 +6,7 @@ A movie application for education purpose with NextJS
 <img src="https://github.com/BayramYARIM/nextjs-movie-app/blob/main/screenshots/pw-movie-state-cards.jpg">
 <img src="https://github.com/BayramYARIM/nextjs-movie-app/blob/main/screenshots/pw-cards-footer.jpg">
 <img src="https://github.com/BayramYARIM/nextjs-movie-app/blob/main/screenshots/pw-trailer-popup.jpg">
+<img src="https://github.com/BayramYARIM/nextjs-movie-app/blob/main/screenshots/pw-login-page.jpg">
 
 ## Software Version
 ```bash
